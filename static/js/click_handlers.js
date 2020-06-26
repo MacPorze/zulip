@@ -650,7 +650,7 @@ exports.initialize = function () {
         compose_actions.cancel();
     });
 
-    $("#recent_topics_icon").click(function (e) {
+    $("#top_left_recent_topics").click(function (e) {
         e.stopPropagation();
         hashchange.go_to_location('recent_topics');
     });
